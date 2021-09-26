@@ -1,17 +1,12 @@
 import React from 'react';
 import './List.css'
 const List = (props) => {
-
-    // name,Union,peopleVapacity,price,
-    // const{addMembers}=props.addMembers;
-    // const{price}=props.addMembers;
 let total=0
 
 for (const addedPrice of props.addMembers){
-  console.log(addedPrice);
+
   total=addedPrice.price+total
 }
-    
     return (
         <div>
             <h3 className='fw-bold my-3'>Added Chirman: {props.addMembers.length}</h3>
@@ -27,23 +22,24 @@ for (const addedPrice of props.addMembers){
     );
 };
 const DisplayList=(props)=>{
-    const {name,img,price}=props.member
+const {member}=props
+    const {name,img,price}=member
     return(
         <div>
 
 <ul>
     <li>
     
-    <div class="card mb-3" >
-  <div class="row g-0">
-    <div class="col-md-4">
+    <div className="card mb-3" >
+  <div className="row g-0">
+    <div className="col-md-4">
       
-          <img src={img}  class="img-fluid rounded-start borderd" alt="" />
+          <img src={img}  className="img-fluid rounded-start borderd" alt="" />
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <p class="card-title"><small>Name: {name}</small></p>
-        <p class="card-title"><small>Price: {price}</small></p>
+    <div className="col-md-8">
+      <div className="card-body">
+        <p className="card-title"><small>Name: {name}</small></p>
+        <p className="card-title"><small>Price: {price}</small></p>
        
       </div>
     </div>
@@ -52,6 +48,7 @@ const DisplayList=(props)=>{
     
     </li>
 </ul>
+    
         </div>
     )
 }

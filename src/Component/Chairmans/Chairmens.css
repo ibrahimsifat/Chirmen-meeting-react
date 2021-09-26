@@ -8,8 +8,17 @@
 .card {
     transition: all .3s;
     border-radius: 5px;
+    background-color: #f9f9f9;
 }
 
 .card:hover {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.detals {
+    line-height: .4;
+}
+
+.detals p {
+    line-height: .5;
 }

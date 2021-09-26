@@ -1,0 +1,7 @@
+.added {
+    background-image: linear-gradient(to right, #ececec, #fff);
+}
+
+.budget {
+    background-image: radial-gradient(#ececec 30%, transparent 90%, #fff 70%);
+}

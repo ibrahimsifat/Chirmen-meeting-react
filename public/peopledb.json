@@ -1,0 +1,51 @@
+[{
+        "name": "ali Hoshen",
+        "Union": "Pokhkhalli",
+        "peopleCapacity": "3040",
+        "price": 20000,
+        "img": "./img/cher-01.png"
+    },
+    {
+        "name": "Omor Mia",
+        "Union": "Islamavad",
+        "peopleCapacity": "2540",
+        "price": 15000,
+        "img": "./img/cher-02.png"
+    },
+    {
+        "name": "Nur Siddik",
+        "Union": "Islampur",
+        "peopleCapacity": "4530",
+        "price": 50000,
+        "img": "./img/cher-03.png"
+    },
+    {
+        "name": "Komol Hashan",
+        "Union": "Eidgha",
+        "peopleCapacity": "2980",
+        "price": 25000,
+        "img": "./img/cher-04.png"
+    },
+    {
+        "name": "Babul Ahmed",
+        "Union": "Boulkhali",
+        "peopleCapacity": "3754",
+        "price": 30000,
+        "img": "./img/cher-05.png"
+    },
+    {
+        "name": "Nuraccafa",
+        "Union": "Ramu",
+        "peopleCapacity": "4366",
+        "price": 55000,
+        "img": "./img/cher-06.png"
+    },
+    {
+        "name": "Saiful Uddin",
+        "Union": "Idgor",
+        "peopleCapacity": "4423",
+        "price": 45000,
+        "img": "./img/cher-07.png"
+    }
+
+]

@@ -4,4 +4,9 @@
 
 .budget {
     background-image: radial-gradient(#ececec 30%, transparent 90%, #fff 70%);
+    transition: all .3s;
+}
+
+.budget:hover {
+    background-image: radial-gradient(#fff 30%, transparent 10%, #ececec 70%);
 }

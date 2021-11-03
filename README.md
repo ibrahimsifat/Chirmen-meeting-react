@@ -1,6 +1,6 @@
 # Welcome to My Chairman Meeting Celebration
 
-Live site Link [Chairman Metting](https://github.com/facebook/create-react-app).
+Live site Link [Chairman Metting](https://elastic-edison-a42aee.netlify.app/).
 
 
 
